@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{parent()}}presentation de la ville{% endblock %}
+
+{% block body %}
+<div style="background: rgba(255, 1, 43, 0.027);">
+<h1 class="text-center text-primary mt-4 pt-4 display-1 fw-bold"> Présentation de la ville</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40786.2785161647!2d2.7328703141480295!3d50.28926953993571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd47d866f95a7b%3A0x6869aedb05652a21!2sArras!5e0!3m2!1sfr!2sfr!4v1644935080257!5m2!1sfr!2sfr" 
+width="1080" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="rounded mx-auto d-block">
+</iframe>
+
+<h2 class="text-center text-primary mt-4 pt-4 display-4 fw-bold">introduction</h2>
+<div>
+<img src="images/villearras.png" class="img-fluid rounded mx-auto d-block" width="1080" alt="Responsive image">
+<p  class="text-center mt-4 pt-4 ">Capitale historique et administrative du département du Pas-de-Calais, au cœur de la zone économique
+   agroalimentaire la plus étendue au nord de Paris, chef-lieu du Pas-de-Calais, Arras n'est pourtant,
+    avec ses 41 000 habitants, que la deuxième ville la plus peuplée du département après Calais.
+    Elle est le siège de la communauté urbaine d'Arras, qui regroupe 108 000 habitants sur 46 communes.
+    Avec les villes de l'ancien bassin minier situées un peu plus au nord, elle est directement sous l'influence de l'« aire métropolitaine de Lille »
+    , ensemble métropolitain de près de 3,8 millions d'habitants dont le centre, la ville de Lille, ne se trouve qu'à 45 km.</p>
+</div>
+<div class="d-flex flex-column">
+
+<h2 class="text-center text-primary mt-4 pt-4 display-4 fw-bold">Le beffroi d'arras</h2>
+<div class="">
+<img src="images/beffroi.jpg" class="img-fluid rounded mx-auto d-block " style="float:left;" alt="Responsive image">
+<p class="text-center mt-4 pt-4">Le beffroi d'Arras est un ouvrage de charpente de la commune d'Arras, dans le département français du Pas-de-Calais.
+    Tout comme l'hôtel de ville auquel il est accolé, il s'agit d'un monument historique.
+    Commencés durant le xve siècle, les travaux prennent fin en 1554, sur les plans de Jacques le Caron. Construit dans le style gothique flamboyant, le beffroi est détruit puis reconstruit
+     à deux reprises de manière identique. La première fois en 1833, car il menaçait de s'écrouler et la seconde fois, en 1914, à la suite des bombardements allemands
+      de la Première Guerre mondiale.
+
+    Au Moyen Âge, le beffroi avait des fonctions militaires : la cloche sonnait l'ouverture et la fermeture des portes de la ville et le bâtiment servait de prison.
+     De nos jours, il fait partie du patrimoine d'Arras. Il est classé monuments historiques depuis 1840 et, depuis 2005,
+     fait partie du patrimoine mondial de l'Unesco en étant compris dans les beffrois de Belgique et de France.
+</p>
+</div>
+
+<div>
+<h2 class="text-center text-primary mt-4 pt-4 display-4 fw-bold">Le bowling</h2>
+<img src="images/bowling.jpeg" class="img-fluid mx-auto d-block rounded" style="float:left; margin:2rem;" alt="Responsive image">
+<p style="margin:2rem;">le bowling c'est super</p>
+</div>
+</div>
+</div>
+{% endblock %}
